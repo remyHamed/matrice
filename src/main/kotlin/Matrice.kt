@@ -1,8 +1,8 @@
 
-open class Matrice <T> (line: Int, col: Int)  {
-    private val line: Int
-    private val col: Int
-    private val grid:List<MutableList<T?>>
+abstract class Matrice <T>(line: Int, col: Int)  {
+    protected val line: Int
+    protected val col: Int
+    protected val grid:List<MutableList<T?>>
 
 
     init {
